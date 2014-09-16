@@ -4,7 +4,7 @@ mark, rp, rt, ruby, summary, time {display:inline}
 /* Left & Right alignment */
 .left {float:left}
 .right {float:right}
-.wrapper {width:100%;overflow:hidden}
+.wrapper {overflow:hidden}
 /* Global properties ======================================================== */
 body {background:#000;border:0;font:14px Arial, Helvetica, sans-serif;color:#808080;line-height:20px;min-width:1100px;overflow:hidden}
 .ic {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
@@ -25,7 +25,8 @@ body, html {height:100%}
 a {color:#808080;text-decoration:underline;outline:none}
 a:hover {text-decoration:none}
 h1 {padding:48px 0 0 0}
-h2 {font-size:36px;line-height:1.2em;padding:17px 0 20px 0;color:#fff;font-weight:700}
+h2 {font-size:46px;line-height:1.2em;padding:17px 0 20px 0;color:#fff;font-weight:700}
+h3 {font-size:26px;line-height:1.2em;padding:17px 0 20px 0;color:#fff;font-weight:700}
 p {padding-bottom:10px;font-size:22px;margin-top: 5px;}
 /* ============================= header ====================== */
 header {width:360px;float:left}
@@ -47,8 +48,10 @@ header {width:360px;float:left}
 .close span {display:block;background:url(../images/close.gif) 0 bottom no-repeat;width:100%;height:100%}
 .pad_left1 {padding-left:60px}
 .pad_bot1 {padding-bottom:25px}
-.pad_bot2 {padding-bottom:4px}
+.pad_bot22 {padding-bottom:4px;text-align: right;width: 100%}
+.pad_bot23 {padding-bottom:4px;text-align: left;width: 100%}
 .pad_bot3 {padding-bottom:10px}
+.pad_bot2 {padding-bottom:4px;}
 .marg_right1 {margin-right:29px}
 #page_Services .pad_bot3 {padding-bottom:15px}
 #content figure {padding-top:5px}
@@ -56,9 +59,12 @@ header {width:360px;float:left}
 .button1 span {position:absolute;top:0;left:0;width:100%;height:100%;background:#000}
 .button1 strong {position:relative;font-weight:400;display:block;padding:0 14px;letter-spacing:-1px}
 .button1:hover {color:#fff}
-.date {float:left;width:52px;margin-right:17px;margin-bottom: 20px;text-align:center;font-size:49px;font-weight:700;color:#fff;letter-spacing:-1px;line-height:1.2em}
-.date strong {margin-top:-9px;display:block}
-.date span {font-weight:400;font-size:25px;line-height:1.2em;margin-top:-3px;display:block}
+.date {z-index: 6;float:left;width:52px;margin-right:17px;margin-bottom: 20px;font-size:49px;font-weight:700;color:#fff;letter-spacing:-1px;line-height:1.2em}
+.date2 {z-index: 6;float:right;width:52px;margin-right:107px;margin-bottom: 20px;font-size:49px;font-weight:700;color:#fff;letter-spacing:-1px;line-height:1.2em}
+.date strong {margin-top:-9px;display:block;z-index: 3}
+.date2 strong {display:block;z-index: 3}
+.date span {font-weight:400;font-size:25px;line-height:1.2em;display:block}
+.date2 span {font-weight:400;font-size:25px;line-height:1.2em;display:block}
 .color1 {color:#fff}
 .list1, .list2 {margin-top:-2px}
 .list1 li, .list2 li {line-height:24px}
@@ -94,6 +100,8 @@ footer a {color:#fff;text-decoration:none}
 footer a:hover {color:#808080}
 .col_1 {width:360px;float:left}
 .col_2 {width:740px;float:left;text-align:center}
+.col_22 {width:740px;float:left;text-align:right;padding-left: 10px;}
+.col_23 {width:740px;float:left;padding-right: 10px;}
 #footer_logo {float:left;}
 /* ============================= forms ============================= */
 #ContactForm {margin-top:-2px}
