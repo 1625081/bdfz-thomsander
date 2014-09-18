@@ -4,9 +4,9 @@ mark, rp, rt, ruby, summary, time {display:inline}
 /* Left & Right alignment */
 .left {float:left}
 .right {float:right}
-.wrapper {overflow:hidden}
+.wrapper {overflow:hidden;}
 /* Global properties ======================================================== */
-body {background:#000;border:0;font:14px Arial, Helvetica, sans-serif;color:#808080;line-height:20px;min-width:1100px;overflow:hidden}
+body {background:#000;border:0;font:14px Arial, Helvetica, sans-serif;color:#808080;line-height:20px;min-width:1100px;overflow:hidden;}
 .ic {border:0;float:right;background:#fff;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
 /* Global Structure ============================================================= */
 .main {	margin:0 auto;width:1100px}
@@ -27,14 +27,21 @@ a:hover {text-decoration:none}
 h1 {padding:48px 0 0 0}
 h2 {font-size:46px;line-height:1.2em;padding:17px 0 20px 0;color:#fff;font-weight:700}
 h3 {font-size:26px;line-height:1.2em;padding:17px 0 20px 0;color:#fff;font-weight:700}
-p {padding-bottom:10px;font-size:22px;margin-top: 5px;}
+h4 {font-size:46px;line-height:1.2em;padding:17px 0 20px 0;color:#fff;font-weight:700;text-align: center;}
+p {padding-bottom:10px;font-size:22px;margin-top: 5px;font-weight:700;color:black;}
+h5 {padding-bottom:10px;font-size:17px;margin-top: 5px;font-weight:700;color:black;}
+#mustright {margin-left: 37%;margin-top: -1.7%}
+#mustright2 {margin-left: 30.5%;margin-top: -1.7%}
+#mustright3 {margin-left: 35.5%;margin-top: -1.7%}
+#mustright4 {margin-left: 32%;margin-top: 1.7%}
+#imgcn {margin-left: 30%}
 /* ============================= header ====================== */
 header {width:360px;float:left}
 #logo {display:block;text-indent:-9999px;background:url(../images/logo.png) 0 0 no-repeat;width:280px;height:153px}
 #menu {padding-top:132px}
 #menu > li {width:100%;overflow:hidden;padding-bottom:4px;margin-top: 25px;margin-bottom: 45px}
-#menu > li > a {display:inline-block;font-size:26px;line-height:54px;height:56px;color:#fff;background:#000;text-decoration:none;position:relative;letter-spacing:0px;cursor:pointer}
-#menu > li > a span {display:block;background:#fff;position:absolute;width:100%;height:100%;top:0;left:0}
+#menu > li > a {display:inline-block;font-size:26px;line-height:54px;height:56px;color:#fff;background-color: #B8860B;opacity: 0.6;text-decoration:none;position:relative;letter-spacing:0px;cursor:pointer}
+#menu > li > a span {display:block;background:#fff;opacity: 0.8;position:absolute;width:100%;height:100%;top:0;left:0}
 #menu > li > a strong {position:relative;display:block;padding:0 95px 0 40px;height:56px}
 #menu > li > a:hover, #menu > li > a.active {color:#000}
 #menu > li > a:hover strong, #menu > li > a.active strong{}
@@ -42,8 +49,8 @@ header {width:360px;float:left}
 
 #content {height:868px;width:740px;float:left;position:relative}
 #content > ul > li {position:relative;height:868px;width:100%;bottom:0}
-.box1 {background:url(../images/bg_content.png) repeat;width:100%;height:100%;position:absolute;top:0;left:0}
-.inner {padding:25px 55px 25px 60px;position:relative}
+.box1 {background-color: #B8860B;opacity: 0.8;width:100%;height:100%;position:absolute;top:0;left:0}
+.inner {padding:25px 55px 25px 60px;position:relative;}
 .close {position:absolute;top:20px;right:20px;width:25px;height:25px;background:url(../images/close.gif) 0 0 no-repeat;display:block}
 .close span {display:block;background:url(../images/close.gif) 0 bottom no-repeat;width:100%;height:100%}
 .pad_left1 {padding-left:60px}
@@ -52,13 +59,14 @@ header {width:360px;float:left}
 .pad_bot23 {padding-bottom:4px;text-align: left;width: 100%}
 .pad_bot3 {padding-bottom:10px}
 .pad_bot2 {padding-bottom:4px;}
+#pleaseup {margin-top: -2%;}
 .marg_right1 {margin-right:29px}
 #page_Services .pad_bot3 {padding-bottom:15px}
 #content figure {padding-top:5px}
-.button1 {display:inline-block;font-size:16px;color:#000;text-transform:uppercase;text-decoration:none;background:#fff;line-height:33px;position:relative}
+.button1 {margin-left: 40%;display:inline-block;font-size:16px;color:#000;text-transform:uppercase;text-decoration:none;background:#fff;line-height:33px;position:relative}
 .button1 span {position:absolute;top:0;left:0;width:100%;height:100%;background:#000}
-.button1 strong {position:relative;font-weight:400;display:block;padding:0 14px;letter-spacing:-1px}
-.button1:hover {color:#fff}
+.button1 strong {position:relative;font-weight:700;font-size: 32px;display:block;padding:0 14px;letter-spacing:-1px}
+.button1:hover {color:#fff;}
 .date {z-index: 6;float:left;width:52px;margin-right:17px;margin-bottom: 20px;font-size:49px;font-weight:700;color:#fff;letter-spacing:-1px;line-height:1.2em}
 .date2 {z-index: 6;float:right;width:52px;margin-right:107px;margin-bottom: 20px;font-size:49px;font-weight:700;color:#fff;letter-spacing:-1px;line-height:1.2em}
 .date strong {margin-top:-9px;display:block;z-index: 3}
@@ -103,6 +111,19 @@ footer a:hover {color:#808080}
 .col_22 {width:740px;float:left;text-align:right;padding-left: 10px;}
 .col_23 {width:740px;float:left;padding-right: 10px;}
 #footer_logo {float:left;}
+      div.clearfix{
+          float: left;
+         height: 1px;
+          margin-left: 1.323701%;
+          margin-top: -11.984375px;
+          width: 98.268094%;
+          background-image:-webkit-linear-gradient(left,#FFF 25%,  #FFF 100%);
+          background-image:linear-gradient(left,#FFF 25%, #FFF 100%);
+          clear: both ;        
+          background-attachment: scroll;
+         -webkit-filter: blur(0px);
+         filter: blur(0px);
+        }
 /* ============================= forms ============================= */
 #ContactForm {margin-top:-2px}
 #ContactForm .wrapper {overflow:inherit;min-height:30px}
